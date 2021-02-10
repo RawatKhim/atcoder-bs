@@ -1,0 +1,12 @@
+# ABC086A
+
+s = input()
+token = s.split()
+a = int(token[0])
+b = int(token[1])
+
+if (a*b)%2:
+    print('Even')
+else:
+    print('Odd')
+
